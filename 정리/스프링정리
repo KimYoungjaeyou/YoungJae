@@ -54,6 +54,23 @@
       - 어드바이스 설정
         - @Before("포인트컷식별자메소드()")
 
+9. JdbcTemplate 클래스
+
+      -JDBC처럼 코딩순서가 정형화된 기술에서 유용하게 사용할 수 있따.
+
+      - 스프링 jdbc를 이용하려면 pom.xml에 dbcp관련 <dependeny>추가해야함
+
+      - DAO클래스에서 JdbcTemplate 객체를 얻는방법
+        i) JdbcDaoSupport 상속
+
+10. mybatis
+
+      - 디펜댄시 추가해야함..pom.xml에!
+      - mybatis mapper xml(쿼리작성하는파일)
+      - Mybatis Configuration XML(환경설정파일)
+        > 만들어서 src/main/resources 로 옮겨야한다..
+
+
 
 
 
